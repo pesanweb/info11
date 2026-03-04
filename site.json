@@ -15,7 +15,7 @@
         "canonical": true
       },
       "created": 1764131713,
-      "updated": 1772650365,
+      "updated": 1772651340,
       "git": {
         "vendor": "github",
         "branch": "gh-pages"
@@ -195,20 +195,21 @@
       "id": "item-9bbb8f4b-752d-415c-8332-3ce1039b8e8a",
       "indent": 0,
       "location": "pages/item-9bbb8f4b-752d-415c-8332-3ce1039b8e8a/index.html",
-      "slug": "copy-of-page",
+      "slug": "python-asyik",
       "order": 2,
       "parent": null,
-      "title": "Copy of Page",
+      "title": "Pengembangan Aplikasi Prediksi Cuaca Sederhana berbasis Python",
       "description": "\n",
       "metadata": {
         "locked": false,
         "created": 1772646927,
         "images": {},
         "videos": {},
-        "updated": 1772650365,
+        "updated": 1772651340,
         "published": true,
         "hideInMenu": false,
-        "readtime": 1
+        "readtime": 1,
+        "pageType": "activity"
       }
     }
   ]

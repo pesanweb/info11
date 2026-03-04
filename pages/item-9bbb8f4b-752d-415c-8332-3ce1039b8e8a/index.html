@@ -1,7 +1,56 @@
 
+<p>Aplikasi Prediksi Cuaca Sederhana berbasis Python</p>
 <p></p>
-<details open="">
-  <summary>Bagian Luar</summary>
+<learning-component subtitle="TUJUAN PEMBELAJARAN" type="objectives" icon="courseicons:learning-objectives" accent-color="indigo" title="Learning Objectives">
+  <p>Pada akhir pelajaran ini, Anda seharusnya mampu untuk......</p>
+  <p></p><ol>
+      <li><span>Siswa mampu memecahkan masalah kompleks menggunakan 4 pilar CT (Dekomposisi, Pengenalan Pola, Abstraksi, Algoritma).</span></li>
+<li>Siswa mampu menulis baris kode Python yang fungsional untuk proyek tersebut.</li><li>Siswa mampu menyajikan proses berpikirnya dalam bentuk Poster Digital Multimodal.</li></ol>
+<p></p>
+  <p></p>
+  <p></p>
+</learning-component>
+<p></p>
+<p>"Sebelum menulis kode, kita harus belajar berpikir seperti komputer. Gunakan Lembar Kerja CT yang tersedia. Pecahlah masalah besar (membuat aplikasi cuaca) menjadi kepingan kecil. Identifikasi pola suhu yang menyebabkan hujan, dan abaikan detail yang tidak perlu (Abstraksi). Terakhir, susunlah langkah-langkah logisnya dalam bentuk Flowchart sederhana."</p>
+<p></p>
+<p></p>
+<p></p>
+<code-sample type="javascript" copy-clipboard-button><template preserve-content="preserve-content"># Program Prediksi Cuaca Sederhana
+print("=== SkyGuard: Sistem Prediksi Cuaca Sederhana ===")
+
+# 1. Tahap Input (Dekomposisi)
+suhu = float(input("Masukkan suhu udara (°C): "))
+kelembapan = float(input("Masukkan persentase kelembapan (%): "))
+
+# 2. Logika Pengolahan (Pengenalan Pola &amp; Algoritma)
+if suhu &gt;= 30 and kelembapan &lt; 60:
+    prediksi = "Cerah"
+    saran = "Gunakan tabir surya dan bawa air minum."
+elif 25 &lt;= suhu &lt; 30 and 60 &lt;= kelembapan &lt;= 80:
+    prediksi = "Berawan"
+    saran = "Cuaca nyaman untuk aktivitas luar ruangan."
+elif kelembapan &gt; 80:
+    prediksi = "Hujan"
+    saran = "Siapkan payung atau jas hujan sebelum keluar."
+else:
+    prediksi = "Tidak menentu"
+    saran = "Tetap pantau kondisi langit secara berkala."
+
+# 3. Tahap Output (Abstraksi)
+print("-" * 30)
+print(f"Hasil Prediksi: {prediksi}")
+print(f"Saran: {saran}")
+print("-" * 30)</template></code-sample>
+<blockquote>
+</blockquote>
+<p></p>
+<p></p>
+<p></p>
+<p></p>
+<p></p>
+<p></p>
+<details>
+  <summary>Bagian Luar</summary><summary>Bagian Luar</summary><p></p><summary>Bagian Luar</summary><p></p><p></p><summary>Bagian Luar</summary>
   <p>Ini konten luar.</p>
   <details close="">
     <summary>Bagian Dalam</summary>

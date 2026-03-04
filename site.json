@@ -15,7 +15,7 @@
         "canonical": true
       },
       "created": 1764131713,
-      "updated": 1772651340,
+      "updated": 1772654397,
       "git": {
         "vendor": "github",
         "branch": "gh-pages"
@@ -205,11 +205,12 @@
         "created": 1772646927,
         "images": {},
         "videos": {},
-        "updated": 1772651340,
+        "updated": 1772654397,
         "published": true,
         "hideInMenu": false,
-        "readtime": 1,
-        "pageType": "activity"
+        "readtime": 6,
+        "pageType": "activity",
+        "icon": "hax:ticket"
       }
     }
   ]

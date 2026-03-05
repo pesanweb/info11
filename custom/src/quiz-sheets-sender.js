@@ -1,4 +1,4 @@
-import { LitElement, html } from 'https://cdn.jsdelivr.net/npm/lit@3.1.4/+esm';
+import { LitElement, html, css } from "lit";
 
 class QuizSheetsSender extends LitElement {
     static properties = {

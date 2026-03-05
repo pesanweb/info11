@@ -15,7 +15,7 @@
         "canonical": true
       },
       "created": 1764131713,
-      "updated": 1764136025,
+      "updated": 1772676534,
       "git": {
         "vendor": "github",
         "branch": "gh-pages"
@@ -47,7 +47,7 @@
       "description": "Welcome to your new HAX site! Click edit on the top bar to get started\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nINFORMATIKA KELAS XI \n\n\n  \n    Bagian materi 1 yang perlu dipelajari terlebih dahulu.\n\n\n  \n\n\n\n\n\n",
       "metadata": {
         "created": 1764131712,
-        "updated": 1764136004,
+        "updated": 1772676190,
         "published": true,
         "hideInMenu": true,
         "locked": false,
@@ -57,11 +57,27 @@
         "theme": {
           "element": "polaris-flex-theme",
           "path": "@haxtheweb/polaris-theme/lib/polaris-flex-theme.js",
-          "name": "Polaris - Flex",
-          "thumbnail": "build/es6/node_modules/@haxtheweb/app-hax/lib/assets/images/PartyStyle.svg",
+          "name": "Polaris Flex Theme",
+          "thumbnail": "@haxtheweb/haxcms-elements/lib/theme-screenshots/theme-polaris-flex-theme-thumb.jpg",
+          "description": "Start with a blank site using the Polaris Flex Theme",
+          "category": [
+            "Website"
+          ],
+          "hidden": false,
+          "terrible": false,
           "key": "polaris-flex-theme"
         },
-        "status": ""
+        "status": "",
+        "files": [
+          {
+            "path": "/home/user/info11/files/riset.jpg",
+            "fullUrl": "//home/user/info11/files/riset.jpg",
+            "url": "files/riset.jpg",
+            "type": "image/jpeg",
+            "name": "riset.jpg",
+            "size": 7302
+          }
+        ]
       }
     },
     {
@@ -69,13 +85,13 @@
       "indent": 0,
       "location": "pages/item-e4e98285-ac0a-4a5a-bbc3-e431e7a30ed6/index.html",
       "slug": "berpikir-kritis-dan-dampak-sosial-informatika",
-      "order": 2,
+      "order": 3,
       "parent": null,
       "title": "Bab 3 Berpikir Kritis dan Dampak Sosial Informatika",
       "description": "Berpikir Kritis dan Dampak Sosial Informatika\nRevolusi industri 4.0 menyentuh hampir semua aspek dalam kehidupan sehari-hari. Dengan pemanfaatan Internet of things (IoT), automasi, teknologi cerdas d",
       "metadata": {
         "created": 1764133718,
-        "updated": 1764135981,
+        "updated": 1772646927,
         "images": {},
         "videos": {},
         "theme": {
@@ -108,7 +124,7 @@
       "description": "\n  \n\n\nBerfikir Kritis dan Pengambilan Keputusan di Era Ini\n\n\n\nRevolusi Industri 4.0 telah memberikan dampak transformatif pada\n  bidang pendidikan, menjanjikan peningkatan akses, kecepatan, dan pemer",
       "metadata": {
         "created": 1764133808,
-        "updated": 1764135981,
+        "updated": 1772646928,
         "images": {},
         "videos": {},
         "theme": {
@@ -141,7 +157,7 @@
       "description": "Daftar 10 Pertanyaan Berpikir Kritis (Elemen Berpikir)\nBerikut adalah pertanyaan yang disusun berdasarkan elemen berpikir kritis untuk\n  mengkaji penerapan informatika dalam pertanian:\n\n  Tujuan (Pur",
       "metadata": {
         "created": 1764133925,
-        "updated": 1764135982,
+        "updated": 1772646928,
         "images": {},
         "videos": {},
         "theme": {
@@ -174,7 +190,7 @@
       "description": "\n",
       "metadata": {
         "created": 1764135863,
-        "updated": 1764136025,
+        "updated": 1772646927,
         "images": {},
         "videos": {},
         "published": true,
@@ -189,6 +205,41 @@
         },
         "hideInMenu": false,
         "readtime": 1
+      }
+    },
+    {
+      "id": "item-9bbb8f4b-752d-415c-8332-3ce1039b8e8a",
+      "indent": 0,
+      "location": "pages/item-9bbb8f4b-752d-415c-8332-3ce1039b8e8a/index.html",
+      "slug": "python-asyik",
+      "order": 2,
+      "parent": null,
+      "title": "Pengembangan Aplikasi Prediksi Cuaca Sederhana berbasis Python",
+      "description": "\n",
+      "metadata": {
+        "locked": false,
+        "created": 1772646927,
+        "images": {},
+        "videos": {},
+        "updated": 1772676534,
+        "published": true,
+        "hideInMenu": false,
+        "readtime": 6,
+        "pageType": "activity",
+        "icon": "hax:ticket",
+        "theme": {
+          "element": "polaris-flex-theme",
+          "path": "@haxtheweb/polaris-theme/lib/polaris-flex-theme.js",
+          "name": "Polaris Flex Theme",
+          "thumbnail": "@haxtheweb/haxcms-elements/lib/theme-screenshots/theme-polaris-flex-theme-thumb.jpg",
+          "description": "Start with a blank site using the Polaris Flex Theme",
+          "category": [
+            "Website"
+          ],
+          "hidden": false,
+          "terrible": false,
+          "key": "polaris-flex-theme"
+        }
       }
     }
   ]
